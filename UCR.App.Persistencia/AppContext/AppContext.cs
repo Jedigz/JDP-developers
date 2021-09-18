@@ -19,8 +19,7 @@ namespace UCR.App.Persistencia
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder){
         if(!optionsBuilder.IsConfigured){
-            //optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB; Initial Catalog = UCParking");
-            optionsBuilder.UseSqlServer("Server=localhost,1433; Database=UCRestaurant; User=sa; Password=Josefer0511");
+            optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB; Initial Catalog = UCParking");
             }
         }
     }
