@@ -1,29 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "C:\\UCRestaurante\\UCR.App\\UCR.App.Persistencia\\UCR.App.Persistencia.csproj": {}
+    "/Users/josehiguera/ProyectoCiclo3/JDP-developers/UCR.App.Persistencia/UCR.App.Persistencia.csproj": {}
   },
   "projects": {
-    "C:\\UCRestaurante\\UCR.App\\UCR.App.Persistencia\\UCR.App.Persistencia.csproj": {
+    "/Users/josehiguera/ProyectoCiclo3/JDP-developers/UCR.App.Persistencia/UCR.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\UCRestaurante\\UCR.App\\UCR.App.Persistencia\\UCR.App.Persistencia.csproj",
+        "projectUniqueName": "/Users/josehiguera/ProyectoCiclo3/JDP-developers/UCR.App.Persistencia/UCR.App.Persistencia.csproj",
         "projectName": "UCR.App.Persistencia",
-        "projectPath": "C:\\UCRestaurante\\UCR.App\\UCR.App.Persistencia\\UCR.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
-        "outputPath": "C:\\UCRestaurante\\UCR.App\\UCR.App.Persistencia\\obj\\",
+        "projectPath": "/Users/josehiguera/ProyectoCiclo3/JDP-developers/UCR.App.Persistencia/UCR.App.Persistencia.csproj",
+        "packagesPath": "/Users/josehiguera/.nuget/packages/",
+        "outputPath": "/Users/josehiguera/ProyectoCiclo3/JDP-developers/UCR.App.Persistencia/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jorge\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/josehiguera/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netstandard2.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netstandard2.1": {
             "projectReferences": {}
           }
         },
@@ -34,13 +34,21 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netstandard2.1": {
           "dependencies": {
-            "NETStandard.Library": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.design": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -53,7 +61,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.412/RuntimeIdentifierGraph.json"
         }
       }
     }

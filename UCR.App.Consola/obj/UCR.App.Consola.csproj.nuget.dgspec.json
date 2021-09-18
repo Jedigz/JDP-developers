@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\UCRestaurante\\UCR.App\\UCR.App.Consola\\UCR.App.Consola.csproj": {}
+    "/Users/josehiguera/ProyectoCiclo3/JDP-developers/UCR.App.Consola/UCR.App.Consola.csproj": {}
   },
   "projects": {
-    "C:\\UCRestaurante\\UCR.App\\UCR.App.Consola\\UCR.App.Consola.csproj": {
+    "/Users/josehiguera/ProyectoCiclo3/JDP-developers/UCR.App.Consola/UCR.App.Consola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\UCRestaurante\\UCR.App\\UCR.App.Consola\\UCR.App.Consola.csproj",
+        "projectUniqueName": "/Users/josehiguera/ProyectoCiclo3/JDP-developers/UCR.App.Consola/UCR.App.Consola.csproj",
         "projectName": "UCR.App.Consola",
-        "projectPath": "C:\\UCRestaurante\\UCR.App\\UCR.App.Consola\\UCR.App.Consola.csproj",
-        "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
-        "outputPath": "C:\\UCRestaurante\\UCR.App\\UCR.App.Consola\\obj\\",
+        "projectPath": "/Users/josehiguera/ProyectoCiclo3/JDP-developers/UCR.App.Consola/UCR.App.Consola.csproj",
+        "packagesPath": "/Users/josehiguera/.nuget/packages/",
+        "outputPath": "/Users/josehiguera/ProyectoCiclo3/JDP-developers/UCR.App.Consola/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jorge\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/josehiguera/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -35,6 +35,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.design": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -50,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.412/RuntimeIdentifierGraph.json"
         }
       }
     }
