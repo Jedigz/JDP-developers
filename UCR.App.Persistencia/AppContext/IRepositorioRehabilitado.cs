@@ -8,13 +8,13 @@ namespace UCR.App.Persistencia
     {
         //Crud
         //AddRehabilitado
-        Contagiado AddRehabilitado(Contagiado contagiado);
+        Persona AddRehabilitado(Persona persona);
 
         //GetRehabilitado
-        Rehabilitado GetRehabilitado(int identificacion);
+        Persona GetRehabilitado(int identificacion);
         
         //UpdateRehabilitado
-        Rehabilitado UpdateRehabilitado(Rehabilitado rehabilitado);
+        Persona UpdateRehabilitado(Persona persona);
 
         //DeleteRehabilitado
         bool DeleteRehabilitado(int identificacion);
