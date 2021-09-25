@@ -23,14 +23,14 @@ namespace UCR.App.Persistencia
         }
 
         //BuscarContagiado
-        Contagiado IRepositorioContagiado.GetContagiado(int identificacion)
+        Persona IRepositorioContagiado.GetContagiado(int identificacion)
         {
             var contagiadoEncontrado = _appContext.Contagiados.FirstOrDefault(p => p.identificacion==identificacion);
             return contagiadoEncontrado;
         }
         
         //ActualizarContagiado
-        contagiado IRepositorioContagiado.UpdateContagiado(contagiado contagiado)
+        Persona IRepositorioContagiado.UpdateContagiado(Persona persona)
         {
             var contagiadoEncontrado = _appContext.Contagiados.FirstOrDefault(p=> p.identificacion==profesor.identificacion);
             if (contagiadoEncontrado!=null)
