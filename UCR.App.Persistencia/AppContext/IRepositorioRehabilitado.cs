@@ -4,7 +4,7 @@ using UCR.App.Dominio;
 
 namespace UCR.App.Persistencia
 {
-    public interface IRepositorioContagiado
+    public interface IRepositorioRehabilitado
     {
         //Crud
         //AddRehabilitado
