@@ -11,10 +11,10 @@ namespace UCR.App.Persistencia
         Persona AddContagiado(Persona persona);
 
         //GetContagiado
-        Contagiado GetContagiado(int identificacion);
+        Persona GetContagiado(int identificacion);
         
         //UpdateContagiado
-        Contagiado UpdateContagiado(Contagiado contagiado);
+        Persona UpdateContagiado(Persona persona);
 
         //DeleteContagiado
         bool DeleteContagiado(int identificacion);
