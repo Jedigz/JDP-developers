@@ -15,22 +15,22 @@ namespace UCR.App.Persistencia
 
         //CRUD
         //AgregarRehabilitado
-        Contagiado IRepositorioRehabilitado.AddRehabilitado(Contagiado contagiado)
+        Persona IRepositorioRehabilitado.AddRehabilitado(Persona persona)
         {
-            var rehabilitadoAdicionado = _appContext.Rehabilitados.Add(contagiado);
+            var rehabilitadoAdicionado = _appContext.Rehabilitados.Add(persona);
             _appContext.SaveChanges();
             return rehabilitadoAdicionado.Entity;
         }
 
         //BuscarRehabilitado
-        Rehabilitado IRepositorioRehabilitado.GetRehabilitado(int identificacion)
+        Persona IRepositorioRehabilitado.GetRehabilitado(int identificacion)
         {
             var rehabilitadoEncontrado = _appContext.Rehabilitados.FirstOrDefault(p => p.identificacion==identificacion);
             return rehabilitadoEncontrado;
         }
         
         //ActualizarRehabilitado
-        Rehabilitado IRepositorioRehabilitado.UpdateRehabilitado(Rehabilitado rehabilitado)
+        Persona IRepositorioRehabilitado.UpdateRehabilitado(Persona persona)
         {
             var rehabilitadoEncontrado = _appContext.Rehabilitados.FirstOrDefault(p=> p.identificacion==profesor.identificacion);
             if (rehabilitadoEncontrado!=null)
