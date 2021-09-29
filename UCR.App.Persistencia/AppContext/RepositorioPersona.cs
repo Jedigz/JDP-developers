@@ -1,8 +1,8 @@
 using System.Collections.Generic;
-using UCP.App.Dominio;
+using UCR.App.Dominio;
 using System.Linq;
 
-namespace UCP.App.Persistencia
+namespace UCR.App.Persistencia
 {
     public class RepositorioPersona:IRepositorioPersona
     {
