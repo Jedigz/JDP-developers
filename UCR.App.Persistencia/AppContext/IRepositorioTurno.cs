@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using UCP.App.Dominio;
+using UCR.App.Dominio;
 
-namespace UCP.App.Persistencia
+namespace UCR.App.Persistencia
 {
     public interface IRepositorioTurno
     {
