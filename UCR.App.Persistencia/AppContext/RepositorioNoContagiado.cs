@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
-using UCP.App.Dominio;
+using UCR.App.Dominio;
 
-namespace UCP.App.Persistencia
+namespace UCR.App.Persistencia
 {
     public class RepositorioNoContagiado:IRepositorioNoContagiado
     {
